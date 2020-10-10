@@ -16,7 +16,7 @@ if you find some parts of the text difficult to understand. While it would be
 commendable to study external resources in order to fully understand the text it
 is not required. Rather, be careful not to get stuck!
 
-### Environment
+## Environment
 If you do not have [Python](https://www.python.org/) on your machine install it.
 Clone this repository onto your machine and open it with your favorite IDE (if
 you do not have one consider [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)).
