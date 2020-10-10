@@ -44,14 +44,14 @@ for the collections module and understand what the `Counter` class does. Explain
 what the expected input to the class constructor `Counter(input)` is and what is
 the expected output.
 
-3. Look at the words function and understand how it works. Suppose we input
+3. Look at the `words` function and understand how it works. Suppose we input
 the following short text into the function (show the exact output the function
 will return):
     > All opinions are subject to modification and technical correction prior to
 official publication in the Connecticut Reports and Connecticut Appellate
 Reports.
 
-4. With the understanding of the `Counter` class and the words function
+4. With the understanding of the `Counter` class and the `words` function
 explain what happens when the `WORDS` variable is initialized.
 
 5. Once again looking at the `WORDS` variable what do you think is its role
@@ -70,17 +70,17 @@ will likely require a bit of effort:
     
     2. Understand what happens at the line where the `deletes` variable is being
     instantiated. Assuming we take the output you arrived at in the previous
-    subquestion (6.i) show what exact data will the variable deletes hold. In
+    subquestion (7.i) show what exact data will the variable `deletes` hold. In
     the context of the whole code why do you think this data is useful?
     
     3. Understand what happens at the line where the `transposes` variable is
     being instantiated. Assuming we take the output you arrived at in the
-    subquestion 6.i show what exact data the variable `transposes` will hold.
+    subquestion 7.i show what exact data the variable `transposes` will hold.
     In the context of the whole code why do you think this data is useful?
     
     4. Understand what happens at the line where the `replaces` variable is
     being instantiated. Assuming we take the output you arrived at in the
-    subquestion 6.i show the first 10 elements of the exact data that the
+    subquestion 7.i show the first 10 elements of the exact data that the
     variable `replaces` holds. In the context of the whole code why do you think
     this data is useful? Referring back to the `letters` variable how does the
     method work with respect to the words that contain other letters than the
@@ -90,13 +90,13 @@ will likely require a bit of effort:
     
     5. Understand what happens at the line where the `inserts` variable is being
     instantiated. Assuming we take the output you arrived at in the previous
-    subquestion (6.i) show the first 10 elements of the exact data that the
+    subquestion (7.i) show the first 10 elements of the exact data that the
     variable `inserts` hold. In the context of the whole code why do you think
     this data is useful? Referring back to the letters variable how does the
     method work with respect to the words that contain other letters than the
     standard English set of 26 characters.
     
-    6. Given your answers to the previous subquestions (6.i – 6.v) explain what
+    6. Given your answers to the previous subquestions (7.i – 7.v) explain what
     is going to be the output of the `edits1` function.
     
 8. Explain how the function `edits2` works. What does it expect as an input
@@ -131,8 +131,8 @@ words in question 11? How could one eliminate or mitigate the issue?
 13. Are we guaranteed to get the ideal output for the words where the issue
 we identified in question 12 does not exist?
 
-14. Open the `tests.py` file. 14.	The unit_tests function makes an extensive
-use of the assert statement? What does the statement do?
+14. Open the `tests.py` file. The `unit_tests` function makes an extensive
+use of the `assert` statement? What does the statement do?
 
 15. Explain what is being tested by the first 9 tests (`assert` statements) in
 the `unit_test` function. Then explain what is being tested by the following 8
