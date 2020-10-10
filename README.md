@@ -3,6 +3,7 @@
 This repository uses the code and data set from
 https://norvig.com/spell-correct.html (with minor modifications).
 
+## Introduction
 This set of exercises is intended to introduce students to a detailed analysis
 of a small-sized computer program. The goal of the exercise is to teach the
 students how to follow the flow of the program in order to understand what is
@@ -15,10 +16,12 @@ if you find some parts of the text difficult to understand. While it would be
 commendable to study external resources in order to fully understand the text it
 is not required. Rather, be careful not to get stuck!
 
+### Environment
 If you do not have [Python](https://www.python.org/) on your machine install it.
 Clone this repository onto your machine and open it with your favorite IDE (if
 you do not have one consider [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)).
 
+## Exercises
 Answer the questions below (they are meant to be answered in the order in which
 they are asked):
 
